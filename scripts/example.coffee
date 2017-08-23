@@ -9,9 +9,6 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
-   robot.hear /thor/i, (res) ->
-     res.send "somos todos Thor"
-
    robot.hear /┻━┻/i, (res) ->
      res.send "┬──┬ ノ( ゜-゜ノ)  modos..."
 
