@@ -12,6 +12,9 @@ module.exports = (robot) ->
    robot.hear /Thor/i, (res) ->
      res.send "somos todos Thor"
 
+   robot.hear /(ノಠ益ಠ)ノ彡┻━┻/i, (res) ->
+     res.send "┬──┬ ノ( ゜-゜ノ)  modos..."
+
    robot.hear /Quem são/i, (res) ->
      res.send "Somos as sombras que lembram que sua vida é um vazio de perdição"
 
