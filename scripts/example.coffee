@@ -9,8 +9,8 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
-   robot.hear /tips/i, (res) ->
-     res.send "*tips fedora*"
+   robot.hear /Thor/i, (res) ->
+     res.send "somos todos Thor"
 
    robot.hear /Quem são/i, (res) ->
      res.send "Somos as sombras que lembram que sua vida é um vazio de perdição"
